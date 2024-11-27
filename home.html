@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donde Are - Un Sabor Único</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff8e7;
+            color: #333;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1em 2em;
+            background-color: #ffcc33;
+            color: #fff;
+        }
+
+        .logo img {
+            height: 150px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 1em;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 4em 2em;
+            background: linear-gradient(to bottom, #ffcc33, #ff9966);
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 1em;
+        }
+
+        .cta {
+            display: inline-block;
+            padding: 0.5em 1.5em;
+            background-color: #ff5733;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        #menu {
+            padding: 2em;
+            text-align: center;
+        }
+
+        #menu h2 {
+            font-size: 2em;
+            margin-bottom: 1em;
+        }
+
+        .menu-items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.5em;
+        }
+
+        .menu-item {
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .menu-item h3 {
+            margin: 0;
+            padding: 0.5em;
+            background-color: #ffcc33;
+            color: white;
+            font-size: 1.2em;
+        }
+
+        .menu-item p {
+            padding: 0.5em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: #fff;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Donde Are - Un Sabor Único">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Menú</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>¡Bienvenido a Donde Are!</h1>
+            <p>El lugar donde encuentras un sabor único en cada bocado.</p>
+            <a href="#menu" class="cta">Ver Menú</a>
+        </section>
+
+        <section id="menu">
+            <h2>Nuestro Menú</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="burger.jpg" alt="Hamburguesa">
+                    <h3>Hamburguesa</h3>
+                    <p>Jugosa y deliciosa con ingredientes frescos.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="pizza.jpg" alt="Pizza">
+                    <h3>Pizza</h3>
+                    <p>Con queso derretido y tus toppings favoritos.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="fries.jpg" alt="Papas Fritas">
+                    <h3>Papas Fritas</h3>
+                    <p>Crocantes y doradas, perfectas para acompañar.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="arepa.jpg" alt="Arepa">
+                    <h3>Arepa Especial</h3>
+                    <p>Nuestra especialidad, rellena a tu gusto.</p>
+                </div>
+            </div>
+        </section>
+
+       
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Donde Are. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
